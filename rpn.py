@@ -27,7 +27,7 @@ def calculate(arg):
     return stack.pop()
 
 
-def main()
+def main():
     while True:
         calculate(input("rpn calc> "))
 
