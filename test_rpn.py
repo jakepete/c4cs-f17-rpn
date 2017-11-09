@@ -7,3 +7,6 @@ class TestBasics(unittest.TestCase):
 
     def test_sub(self):
         self.assertEqual(1, rpn.calculate('2 1 -'))
+
+    def test_sub(self):
+        self.assertEqual(16, rpn.calculate('2 4 ^'))
